@@ -14,6 +14,11 @@ const titleStyles:React.CSSProperties = {
     margin:"2px",
     padding:"2px"
 }
+
+/**
+ * This is just a casual demo
+ * @returns 
+ */
 export default function(){    
     return(
         <div style={boxStyles}>

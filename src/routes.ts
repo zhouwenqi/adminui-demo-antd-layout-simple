@@ -5,8 +5,8 @@ const DashboardLayout = LazyPage(()=>import("@/layouts"))
 const LoginPage = LazyPage(()=>import("@/pages/login"))
 const ConfigPage = LazyPage(()=>import("@/pages/system/config"))
 const LogsPage = LazyPage(()=>import("@/pages/system/logs"))
-const OrderPage = LazyPage(()=>import("@/pages/workend/order"))
-const ProductPage = LazyPage(()=>import("@/pages/workend/product"))
+const OrderPage = LazyPage(()=>import("@/pages/transaction/order"))
+const ProductPage = LazyPage(()=>import("@/pages/transaction/product"))
 const WelcomePage = LazyPage(()=>import("@/pages/welcome"))
 
 /**
@@ -25,8 +25,8 @@ const routers = createBrowserRouter(
             {path:"config",Component:ConfigPage},
             {path:"logs",Component:LogsPage}
         ]},
-        {path:"workend",children:[
-            {index:true,loader:()=>redirect("/workend/order")},
+        {path:"transaction",children:[
+            {index:true,loader:()=>redirect("/transaction/order")},
             {path:"order",Component:OrderPage},
             {path:"product",Component:ProductPage}
         ]}

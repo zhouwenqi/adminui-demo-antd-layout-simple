@@ -15,7 +15,7 @@ const menuData:MenuData = {
     icon:<DashboardOutlined />,
     children:[
         {name:"welcome",path:"welcome",label:"Welcome",icon:<SmileOutlined />},
-        {name:"workend",path:"workend",label:"Workend",icon:<BlockOutlined />,children:[
+        {name:"transaction",path:"transaction",label:"Transaction",icon:<BlockOutlined />,children:[
             {name:"order",path:"order",label:"Order",icon:<CarryOutOutlined />},
             {name:"order",path:"product",label:"Product",icon:<ProductOutlined />},
         ]},
