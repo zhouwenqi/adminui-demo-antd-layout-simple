@@ -5,7 +5,6 @@ const boxStyles:React.CSSProperties = {
     flexFlow:"column",
     justifyContent:"center",
     alignItems:"center",
-    minHeight:"100%",
     textAlign:"center",
     padding:"1rem",
     flex:1
