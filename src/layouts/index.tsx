@@ -47,7 +47,7 @@ export default function(){
         userInfo:{
             uid:"warden.vip",
             title:"zhouwenqi@me.com",
-            avatar:"https://api.dicebear.com/9.x/miniavs/svg?seed=warden.vip"
+            avatar:"https://api.dicebear.com/9.x/miniavs/svg?seed=8"
         }
     }
     return(

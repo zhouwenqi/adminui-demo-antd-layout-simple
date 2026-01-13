@@ -2,18 +2,18 @@
 # yarn lockfile v1
 
 
-"@adminui-dev/antd-layout@^1.2.3":
-  version "1.2.3"
-  resolved "https://registry.yarnpkg.com/@adminui-dev/antd-layout/-/antd-layout-1.2.3.tgz#3e9ac06fa849b61213d7a546985dfa9601dda6e2"
-  integrity sha512-KcxAq8hFeqAQjvBb+kObzR6uah4kUS7RMT10YOI4rKHfV44I26amjZb11wH0Ent4T8bb+8H6nwIr2qpzNNLeQw==
+"@adminui-dev/antd-layout@^1.3.1":
+  version "1.3.1"
+  resolved "https://registry.yarnpkg.com/@adminui-dev/antd-layout/-/antd-layout-1.3.1.tgz#fab860243fad404c285ac9edf0dbec57636dcb2d"
+  integrity sha512-QmmwC69kfSEHedqKovS89u6OdelPBgT0purY9bLs8FBSGbih0CI9M103Ql8NOCSoCucgYe8CUeU6CUjd1FohNA==
   dependencies:
-    "@adminui-dev/layout" "1.1.2"
+    "@adminui-dev/layout" "1.1.3"
     tslib "^2.6.0"
 
-"@adminui-dev/layout@1.1.2":
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/@adminui-dev/layout/-/layout-1.1.2.tgz#163abc35178d831d46355a63207e4a909ede3295"
-  integrity sha512-3j/aAq4wJt/gCxiuVa9EC1fk3I8+wQZck8k3f6kis46EsNTfrEOfL20R3PYHOomPGgdrEJLxN0JpfGWwsLJ1gQ==
+"@adminui-dev/layout@1.1.3":
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/@adminui-dev/layout/-/layout-1.1.3.tgz#efeea940eae9c5b062dabce4944a931b467659aa"
+  integrity sha512-B18rwRuejGcaT1H06a1y9R5EvC7QRSBo7i5It3i515K67WnNDysunl/Ay3fdfUC74+vYHZ2BBtXUn2po7ynyDQ==
   dependencies:
     tslib "^2.6.0"
 

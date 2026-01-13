@@ -1,4 +1,5 @@
-import { Container, useConfigAction, useConfigState, type AvatarPosition, type LayoutTheme, type LayoutType, type Position, type Theme } from '@adminui-dev/antd-layout';
+import { Container, useConfigAction, useConfigState } from '@adminui-dev/antd-layout';
+import type { AvatarPosition, LayoutType, Position, Theme } from '@adminui-dev/antd-layout';
 import { Segmented, Switch, theme } from 'antd';
 
 const {useToken} = theme
@@ -33,7 +34,7 @@ export default function(){
     const { token } = useToken()
     const { setLayoutConfig } = useConfigAction()
     const { layoutConfig } = useConfigState()
-
+    
     const data:ConfigData[]=[
         {title:"Theme",element:(<Segmented options={["light","dark","system"]} defaultValue={layoutConfig.theme} value={layoutConfig.theme} onChange={(e)=>{setLayoutConfig({...layoutConfig,theme: e as Theme})}} />)},
         {title:"Layout type",element:(<Segmented options={["leftMenu","headMenu"]} defaultValue={layoutConfig.layoutType} value={layoutConfig.layoutType} onChange={(e)=>{setLayoutConfig({...layoutConfig,layoutType: e as LayoutType})}} />)},
