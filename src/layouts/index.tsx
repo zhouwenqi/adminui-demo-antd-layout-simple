@@ -17,7 +17,7 @@ const menuData:MenuData = {
         {name:"welcome",path:"welcome",label:"Welcome",icon:<SmileOutlined />},
         {name:"transaction",path:"transaction",label:"Transaction",icon:<BlockOutlined />,children:[
             {name:"order",path:"order",label:"Order",icon:<CarryOutOutlined />},
-            {name:"order",path:"product",label:"Product",icon:<ProductOutlined />},
+            {name:"product",path:"product",label:"Product",icon:<ProductOutlined />},
         ]},
         {name:"system",path:"system",label:"System",icon:<DesktopOutlined />,children:[
             {name:"config",path:"config",label:"Config",icon:<SettingOutlined />},
