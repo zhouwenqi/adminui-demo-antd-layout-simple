@@ -45,7 +45,7 @@ interface BrandTeam {
 const brandTeams:BrandTeam[] = [    
     {id:1,name:"AIM-120",logo:"https://api.dicebear.com/9.x/bottts-neutral/svg?seed=AIM-120"},
     {id:2,name:"AGM-86A",logo:"https://api.dicebear.com/9.x/bottts-neutral/svg?seed=AGM-86A"},
-    {id:3,name:"Vite.dev",logo:"/vite.svg"},
+    {id:3,name:"Adminui.dev",logo:"/vite.svg"},
     {id:4,name:"M1928",logo:"https://api.dicebear.com/9.x/bottts-neutral/svg?seed=M1928"},
     {id:5,name:"Persuader",logo:"https://api.dicebear.com/9.x/bottts-neutral/svg?seed=Persuader"},
 ]

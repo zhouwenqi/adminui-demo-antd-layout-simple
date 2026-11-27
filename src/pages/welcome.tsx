@@ -21,7 +21,7 @@ const titleStyles:React.CSSProperties = {
 export default function(){    
     return(
         <div style={boxStyles}>
-            <h1 style={titleStyles}>Welcome to warden.vip💖</h1>
+            <h1 style={titleStyles}>Welcome to adminui.dev 💖</h1>
             <h4 style={titleStyles}>This is a simple demonstration project built using "Vite" and "Antd-layout"</h4>
             <article>
                 This page does not use container components and can be freely formatted. Wishing you a smooth journey in your development tasks🎉🎉🎉
