@@ -1,4 +1,4 @@
-# React + TypeScript + Vite
+# "adminui-dev/antd-layout" demo
 
 This is a basic example
 
