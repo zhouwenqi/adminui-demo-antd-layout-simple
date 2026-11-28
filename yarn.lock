@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@adminui-dev/antd-layout@^1.9.4":
-  version "1.9.4"
-  resolved "https://registry.npmjs.org/@adminui-dev/antd-layout/-/antd-layout-1.9.4.tgz"
-  integrity sha512-jMRsXO4SGUUCUPV37MxEPtGMfXpzX8LRLgeaLbW8YKzVqOPDUfhfO9COhPuEZIazig6bH5ymKRHO414o592Jkw==
+"@adminui-dev/antd-layout@^1.9.5":
+  version "1.9.5"
+  resolved "https://registry.npmjs.org/@adminui-dev/antd-layout/-/antd-layout-1.9.5.tgz"
+  integrity sha512-5I1FxDGOwTkWYWGVqJmjnEi/QUj/zO7aR4+cDw+b1BLE0FcQgZsYqpIZy73cD6kW4ZF7c1w48seh5IhV1hnMgw==
   dependencies:
     "@adminui-dev/layout" "1.3.5"
     tslib "^2.6.0"
